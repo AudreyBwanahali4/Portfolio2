@@ -228,6 +228,40 @@ img{
     justify-content: center;
     align-items: center;
 }
+
 #para2{
     font-size: 1.2rem;
+}
+
+.social-links {
+  display: flex;
+  gap: 20px;
+  font-size: 30px; /* Taille des icônes */
+}
+
+.social-icon {
+  text-decoration: none;
+  color: #333; /* Couleur par défaut (gris foncé) */
+  transition: transform 0.3s, color 0.3s;
+}
+
+/* Effet au survol : les icônes prennent leur couleur officielle */
+.youtube:hover { color: #FF0000; }
+.whatsapp:hover { color: #25D366; }
+.x-twitter:hover { color: #000000; }
+.linkedin:hover { color: #0077B5; }
+.discord:hover { color: #5865F2; }
+
+.social-icon:hover {
+  transform: translateY(-5px); /* Petit saut vers le haut */
+}
+/* Flouter le texte */
+.text-masquer {
+  filter: blur(12px);
+  opacity: 0.3;
+  transition: all 0.5s ease-in-out;
+}
+.text-masquer:hover {
+  filter: blur(0);
+  opacity: 1;
 }
