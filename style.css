@@ -77,6 +77,16 @@ h1{
    top: 970px;
    height: 280px;
    width: 500px;
+      margin-top: 20px;
+    background: transparent;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    border-radius: 20px;
+    backdrop-filter: blur(200px);
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .css{
     font-size: 80px;
